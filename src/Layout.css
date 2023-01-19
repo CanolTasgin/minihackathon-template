@@ -1,0 +1,16 @@
+.main-content {
+  padding: 2rem 10rem;
+  max-width: 1680px;
+  margin: 0 auto;
+  min-height: 85vh;
+  /* center the content */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    padding: 2rem 2rem;
+  }
+}
