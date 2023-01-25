@@ -1,0 +1,14 @@
+img{
+    /* height: 40rem; */
+    max-width: 100%;
+    height: auto;
+    margin: 1rem 0;
+}
+
+@media (max-width: 768px) {
+    .img{
+        height: 20rem;
+        margin: 2rem 0;
+    }
+  }
+  
