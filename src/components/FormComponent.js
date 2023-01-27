@@ -12,7 +12,7 @@ const FormComponent = () => {
     event.preventDefault();
     const data = { textField1, textField2, checkbox, dropdown };
     axios
-      .post("http://localhost:5000/data", data)
+      .post("http://0.0.0.0:8333/data", data)
       .then((res) => {
         console.log(res.data);
       })

@@ -11,14 +11,14 @@ function SymptomTracker() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/symptom")
+      .get("http://0.0.0.0:8333/symptom")
       .then((res) => setSymptomData(res.data))
       .catch((err) => console.log(err));
   }, []);
 
   const handleSubmit = () => {
     axios
-      .post("http://localhost:5000/add_data", { symptom_name: selectedSymptom })
+      .post("http://0.0.0.0:8333/add_data", { symptom_name: selectedSymptom })
       .then((res) => {
         setAlertType("success");
         setAlertMessage("Symptom added successfully");
