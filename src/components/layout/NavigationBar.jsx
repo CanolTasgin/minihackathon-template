@@ -11,6 +11,7 @@ const NavigationBar = () => {
           <Nav>
             <Nav.Link href="/about">Projects</Nav.Link>
             <Nav.Link href="/rooms">Rooms</Nav.Link>
+            <Nav.Link href="/symptom-tracker">Symptom Tracker</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
